@@ -18,11 +18,11 @@ export const Footer = () => {
     <FooterWrapper>
       <FooterSocialWrapper>
         {/* <FooterSocialIcons>
-          <a href="https://github.com/Gabe-Goodman" target="_blank" rel="noopener noreferrer">
+          <a href="https://github.com/Aidan-MG" target="_blank" rel="noopener noreferrer">
             <img src={data.github.publicURL} alt="GitHub" />
           </a>
           <a
-            href="https://www.linkedin.com/in/gabe-goodman/"
+            href="https://www.linkedin.com/in/aidan-mg/"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -30,7 +30,7 @@ export const Footer = () => {
           </a>
         </FooterSocialIcons> */}
         <P size="xSmall" color="dark3">
-          © 2024 Gabe Goodman. All rights reserved.
+          © 2024 Aidan Meyer-Golden. All rights reserved.
         </P>
       </FooterSocialWrapper>
     </FooterWrapper>

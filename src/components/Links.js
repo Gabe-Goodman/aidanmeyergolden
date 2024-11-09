@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'gatsby';
 import { AboutWrapper, ResumeWrapper, ContactWrapper } from '../elements';
-import resumeFile from '../images/Gabe-Goodman-Resume.pdf';
+import resumeFile from '../images/Aidan-MG-CV-2024.pdf';
 
 export const AboutMe = () => {
   return (

@@ -25,7 +25,7 @@ const Contact = ({ data }) => {
           }}
         >
           <div style={{ flex: 1 }}>
-            <a href="https://github.com/Gabe-Goodman" target="_blank" rel="noopener noreferrer">
+            <a href="https://github.com/Aidan-MG" target="_blank" rel="noopener noreferrer">
               <img src={data.github.publicURL} alt="GitHub" width="100rem" />
             </a>
           </div>
@@ -40,7 +40,7 @@ const Contact = ({ data }) => {
               }}
               target="_blank"
               rel="noopener noreferrer"
-              href="mailto:goodman.g@northeastern.edu"
+              href="mailto:afm1212@gmail.com"
               style={{ textDecoration: 'none' }}
             >
               <text style={{ fontSize: '7rem' }}>✉️</text>
@@ -48,7 +48,7 @@ const Contact = ({ data }) => {
           </div>
           <div style={{ flex: 0.5 }}>
             <a
-              href="https://www.linkedin.com/in/gabe-goodman/"
+              href="https://www.linkedin.com/in/aidan-mg/"
               target="_blank"
               rel="noopener noreferrer"
             >

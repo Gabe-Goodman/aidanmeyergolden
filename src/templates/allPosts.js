@@ -23,17 +23,17 @@ const allPosts = ({ pageContext, data }) => {
   return (
     <Container>
       <Seo
-        title={'Gabe Goodman - Portfolio'}
-        description={'Welcome to my professional portfolio.'}
+        title={'Aidan Meyer-Golden - Portfolio'}
+        description={'Welcome to my personal portfolio.'}
       />
       <FeatureImage />
       <Content>
         <ProPic />
         <H1 textAlign="center" margin="0 0 1rem 0">
-          Gabe Goodman
+          Aidan Meyer-Golden
         </H1>
         <P color="dark2" textAlign="center">
-          Software Engineer
+          Artist
         </P>
         {posts.map((post) => (
           <ContentCard

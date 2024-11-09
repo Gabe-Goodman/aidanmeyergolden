@@ -1,10 +1,10 @@
 module.exports = {
   siteMetadata: {
-    title: `Gabe Goodman - Professional Portfolio`,
-    description: 'Welcome to my professional portfolio.',
+    title: `Aidan Meyer-Golden - Personal Portfolio`,
+    description: 'Welcome to my personal portfolio.',
     url: '',
     image: '/image.jpg',
-    author: 'Gabe Goodman',
+    author: 'Aidan-MG',
   },
   plugins: [
     `gatsby-plugin-image`,
@@ -21,8 +21,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Gabe Goodman - Professional Portfolio`,
-        short_name: `Gabe Goodman`,
+        name: `Aidan Meyer-Golden - Personal Portfolio`,
+        short_name: `Aidan Meyer-Golden`,
         start_url: `/`,
         icon: `src/images/logo.png`,
         display: `standalone`,
