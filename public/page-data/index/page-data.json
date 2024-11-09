@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-all-posts-js",
+    "path": "/",
+    "result": {"data":{"allMdx":{"edges":[{"node":{"frontmatter":{"slug":"E-Mina","title":"E-Mina – Pop Culture Tourism App","date":"December 2021","excerpt":"React Native, React Navigation, Nativebase","github":"https://github.com/YACT-jp/e-mina-mobile-frontend"}}},{"node":{"frontmatter":{"slug":"Festival-Finder","title":"Festival Finder – Interactive Map","date":"November 2021","excerpt":"Mobile-first, Firebase, React Google Maps","github":"https://github.com/Gabe-Goodman/Festival-Finder"}}},{"node":{"frontmatter":{"slug":"My-Media-Library","title":"My Media Library – Personal API","date":"October 2021","excerpt":"Express, Node.js, PostgreSQL, Knex.js","github":"https://github.com/Gabe-Goodman/My-Media-Library"}}}]}},"pageContext":{"limit":3,"skip":0,"numPages":2,"currentPage":1}},
+    "staticQueryHashes": ["1274017682","3269846558","3284695906","3794256692","704528708"]}

@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunksc33n3=self.webpackChunksc33n3||[]).push([[110],{3349:function(e,t,l){l.r(t);var n=l(7294),a=(l(1496),l(3846)),r=l(4254);t.default=e=>{let{data:t}=e;return console.log("dataaggagag",t.allFile.edges),n.createElement(a.W2,null,n.createElement(a.VY,null,n.createElement(r.H1,{textAlign:"center",margin:"0 0 1rem 0"}," ","Oops! Try clicking my logo and starting from the top!")))}}}]);
+//# sourceMappingURL=component---src-pages-photography-js-b433afa53f1d434f1402.js.map

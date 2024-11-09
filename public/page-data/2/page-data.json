@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-all-posts-js",
+    "path": "/2",
+    "result": {"data":{"allMdx":{"edges":[{"node":{"frontmatter":{"slug":"first-project","title":"First Project","date":"March 2020","excerpt":"This is my first project","github":"This is my first project"}}}]}},"pageContext":{"limit":3,"skip":3,"numPages":2,"currentPage":2}},
+    "staticQueryHashes": ["1274017682","3269846558","3284695906","3794256692","704528708"]}
