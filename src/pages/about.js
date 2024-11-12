@@ -2,13 +2,9 @@ import * as React from 'react';
 import Img from 'gatsby-image';
 import { graphql } from 'gatsby';
 import { Container, Content, FeatureImage } from '../components';
-import { H1 } from '../elements';
+import { H3 } from '../elements';
 
 const about = ({ data }) => {
-  //   const featureImage = data.imageSharp.fixed;
-
-  console.log('dataaggagag', data.allFile.edges);
-
   return (
     <Container>
       {/* <FeatureImage fixed={featureImage} /> */}
@@ -16,7 +12,7 @@ const about = ({ data }) => {
         <Img fluid={img.node.childImageSharp.fluid} />
       ))} */}
       <Content>
-        <H1 textAlign="center" margin="0 0 1rem 0">
+        <H3 textAlign="center" margin="0 0 1rem 0">
           {' '}
           Aidan is an author and songwriter. His idiosyncratic poetic work draws on themes from
           linguistics, philosophy, world poetry and religions. Musically, influences are varied,
@@ -77,7 +73,7 @@ const about = ({ data }) => {
           <br />
           <br />
           Private music lessons in guitar, ear training, piano, and music theory
-        </H1>
+        </H3>
       </Content>
     </Container>
   );
