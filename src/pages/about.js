@@ -2,7 +2,7 @@ import * as React from 'react';
 import Img from 'gatsby-image';
 import { graphql } from 'gatsby';
 import { Container, Content, FeatureImage } from '../components';
-import { H3 } from '../elements';
+import { H1 } from '../elements';
 
 const about = ({ data }) => {
   return (
