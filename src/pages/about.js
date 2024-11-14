@@ -73,7 +73,7 @@ const about = ({ data }) => {
           <br />
           <br />
           Private music lessons in guitar, ear training, piano, and music theory
-        </H3>
+        </H2>
       </Content>
     </Container>
   );
