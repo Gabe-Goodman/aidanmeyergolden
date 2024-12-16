@@ -22,9 +22,10 @@ const allPosts = ({ pageContext, data }) => {
   return (
     <Container>
       <Seo
-        title={'Aidan Meyer-Golden - Portfolio'}
-        description={'Welcome to my personal portfolio.'}
+        title={`Page ${currentPage} - Aidan Meyer-Golden's Portfolio`}
+        description={`Browse Aidan Meyer-Golden's blog posts on page ${currentPage}.`}
       />
+
       <FeatureImage />
       <Content>
         <ProPic />
@@ -37,7 +38,7 @@ const allPosts = ({ pageContext, data }) => {
         {posts.map((post) => (
           <ContentCard
             key={post.node.frontmatter.slug}
-            // date={post.node.frontmatter.date}
+            date={post.node.frontmatter.date}
             title={post.node.frontmatter.title}
             excerpt={post.node.frontmatter.excerpt}
             slug={post.node.frontmatter.slug}

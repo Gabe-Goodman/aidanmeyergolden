@@ -1,93 +1,105 @@
 ---
-title: My Media Library – Personal API
-slug: My-Media-Library
-date: 2021-10
+title: Norway (Poems)
+slug: norway-poems
+date: 2024-12-16
+author: Aidan Meyer-Golden
 featureImage: bwPhoto.jpg
-excerpt: Express, Node.js, PostgreSQL, Knex.js
-github: https://github.com/Gabe-Goodman/My-Media-Library
+excerpt: A poetic exploration of nature, life, and self-reflection.
 ---
 
-## _REST API executed using Express, Node.js, PostgreSQL, Knex.js_
+## By Aidan Meyer-Golden
 
-# My Media Library
+### Smoke choked eyes
 
-_REST API executed using Express, Node.js, PostgreSQL, Knex.js_
-
-<br />
-<img alt="Example" src="example.png" width="300" />
-
-## Frontend
-
-- **Static web pages** served using Express.static( )
-- **Form inputs** serve as query parameters (see resulting URL)
-- Only **POST, GET** requests can be sent from an HTML form element
-
-## Backend
-
-- **Knex.js** to establish the connection to the database
-- **PostgreSQL** for database
-- **Express** to create local server
-- **Express.static( )** to host static web pages frontend
-
-### Endpoints
-
-Retrieve media by type
-
-- **/media-library/movies**
-- **/media-library/books**
-- **/media-library/albums**
-
-CRUD functionality
-
-- **/add-media ——** **C**reate new media entry
-- **/find-media ——** **R**ead new media entry
-- **/update-media - U**pdate media entry
-- **/remove-media - D**elete media entry
-
-## Installation
-
-Clone the app from github and run (in node) to install the required dependencies.
-
-```js
-npm i
-```
-
-Create a local PostgreSQL database “my_media_library”.
-
-Configure the connection in knexfile.js at the project root.
-
-<br />
-
-```js
-module.exports = {
-  development: {
-    client: 'postgresql',
-    connection: {
-      database: 'my_media_library',
-      user: 'username',
-      password: 'password',
-    },
-    seeds: {
-      directory: './knex/seeds',
-    },
-    migrations: {
-      directory: './knex/migrations',
-    },
-  },
-};
-```
-
-### **Scripts**
-
-You may wish to run these in a separate terminal from the back end scripts during development <br/><br/>
-
-```js
-knex seed:run //seeds database
-
-knex migrate:latest //runs knex migrations
-
-npm run start //starts the backend server and seeds migrations
-
-```
-
-Recommended: [JSONVue](https://chrome.google.com/webstore/detail/jsonvue/chklaanhfefbnpoihckbnefhakgolnmc) or other JSON formatting extension
+Smoke choked eyes  
+back sore from pack  
+Still I’d like to go further  
+=  
+Running up the mountain  
+to see the rain  
+leaving happy downward trails.  
+=  
+Refugee to the mind:  
+tragedy not encountered.  
+When heard, with hands over eyes,  
+quickly evades, lest it overtake  
+and leave roadside progress of happier times.  
+To take refuge is to admit:  
+O yes I am a fool -
+haven’t you seen me?
+The weather is weeping,  
+silently, off and on,  
+with a great pressure.  
+At times believed:  
+the great pouring selfsick.  
+I ask if this time true,  
+I cry with, to now again be soaked.  
+It lambs, rather than wolf,  
+bleats the heart,  
+no option but forgive.
+If the rainbow is not to come for another million days,  
+or not again before my death,  
+still I must not ask for it,  
+and with a smile feign  
+a lasting lack of import.
+The sun again seems to shine through &#8212;  
+without fail I believe it to be  
+an end.
+o you, life, guard that Am  
+is without ends,  
+that only in poetry will the world gain sense  
+and the earth is no poet,  
+is before poet  
+and I am no poet  
+\--- Am in the jaws of One.<br />=<br />
+I don’t care to count breath  
+all around I hear a sameness sameness snoring  
+and sometimes white lilies emerge from a black pool  
+it seems the heavens unravel<br />
+I rub my eyes &#8212; a daydream<br />=<br />
+Enough said  
+the drunk’s foot<br />=<br />
+When’s the last time  
+a book changed you<br />=<br />
+I sit here,  
+watch green grass,  
+am younger than birth.<br />\*<br />
+My muscles clench.
+I rush to unclench.  
+Underslept day after a big drunk.<br />\*<br />
+I slack.
+I am full of fear, of the world killing me.  
+If I wait long enough blood will rush back  
+push off fear, silent muttering inner tongue,  
+lick the inside of my skull clean.<br />
+It’s hunger with a boot slipping down an incline.  
+O yes it were poems which do  
+cast blossom  
+on the day of first frost.<br />=<br />
+Morph and pervert old stories -  
+write the godsong.  
+Knock on the flaps of the tents of Israel,  
+a salesman with the blood of the lamb.<br />
+Horror! Horror! The death of nation  
+when it leaves a single book  
+for all of its lashes.<br />
+Rosy-cheek dawn on the cover,  
+young, full of sex, mist.<br />
+Here we run to the fingers of firstlight,  
+its warmth, and panting, tired,  
+attribute the heat of sweat to Day.  
+And to Night - the stories crop up again.<br />
+and tremble in the vision of mushroom.  
+Unroot your mycelium drowned feet  
+to stand still, kiss death, breeze,<br />
+It in the trees like some animal,  
+the wanderer is followed only by ghosts  
+all else not so interested in what looks like madman -  
+but only the wandering can see the bald mountaintops,  
+rusty veins, rivers, connecting night to day:<br />
+Wait, to see the self drift off  
+like the raincloud which stands in front of dawn  
+and left are stories, weeds, perverse  
+which throb with the life of things.<br />=<br />
+That I may not harden  
+I give myself to weakness.

@@ -53,3 +53,10 @@
   overflow-y: hidden;
   overflow-x: auto;
 }
+
+pre, code {
+  margin: 0;
+  padding: 0;
+  display: inline; /* Ensure it aligns inline without extra spacing */
+  white-space: pre; /* Maintain exact spacing and line breaks */
+}

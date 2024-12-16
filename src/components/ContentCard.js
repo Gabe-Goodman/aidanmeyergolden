@@ -32,15 +32,7 @@ export const ContentCard = ({ date, title, excerpt, slug, github }) => {
           marginTop: -5,
         }}
       >
-        <Button href={slug}>Read More</Button>{' '}
-        <a
-          style={{ zIndex: 100, marginLeft: 15, paddingTop: 5 }}
-          href={github}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <img style={{ zIndex: 100 }} src={data.github.publicURL} alt="GitHub" width="30rem" />
-        </a>
+        <Button href={slug}>Read</Button>
       </div>
     </CardWrapper>
   );
